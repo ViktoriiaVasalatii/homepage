@@ -1,10 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Résumé</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My resume</title>
   </head>
+
   <body>
-    ― Hello World! &#x1F609;
+    <!-- Main -->
+    <div class="main">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- about user -->
+        <div class="about">
+          <h2 class="about-position">Front-end Developer</h2>
+          <h1 class="about-name">Viktoriia Vasalatii</h1>
+          <a href="" rel="author" class="about-info__item">
+            <div class="about-info__item-icon-wrapper">
+              <svg class="about-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                </path>
+              </svg>
+            </div>
+            <span>Odesa, Ukraine</span>
+          </a>
+          <p class="about-description">
+            I am a beginner frontend developer. I am well versed in the development of websites, every day I study new frameworks. I am able to work in a team and I really want to develop professionally
+          </p>
+        </div>
+        <!-- projects -->
+        <div class="projects">
+          <h3 class="title">Projects</h3>
+          <ol class="projects-list">
+            <li class="projects-item">
+              <span class="projects-text">
+                <a class="projects-link" href=https://github.com/ViktoriiaVasalatii/project-ballons"> 
+                  https://github.com/ViktoriiaVasalatii/project-ballons
+                </a>
+                .......... 
+                <span class="projects-item"> [ </span> 
+                HTML5, CSS3 
+                <span class="projects-item"> ] </span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="projects-text">
+                <a class="projects-link" href="https://github.com/ViktoriiaVasalatii/Website_guitar-lessons">
+                  https://github.com/ViktoriiaVasalatii/Website_guitar-lessons
+                </a>
+                ...........
+                <span class="projects-item"> [ </span> 
+                HTML5, CSS3 
+                 <span class="projects-item"> ] </span>
+              </span>
+            </li>
+           
+          </ol>
+        </div>
+        <!-- Education -->
+        <div class="education">
+          <h3 class="title">Education</h3>
+          <h4 class="education-place"> Odesa Polytechnic National University</h4>
+          <p class="education-position">Automation and computer-integrated techologies</p>
+          <p class="education-time">September 2019 - June 2023 | Odesa Ukraine</p>
+        </div>
+      </div>
+      <!-- Sidebar  -->
+      <aside class="sidebar">
+        <img class="image-main" src="2.jpg" alt="foto" />
+        <!-- Contacts -->
+        <div class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <p class="paragra">
+              <span class="contacts-type">C: </span>
+              <a class="contacts-link decoration" href="tel:+380967546873"
+                >096 754 68 73
+              </a>
+            </p>
+            <p class="paragra">
+              <span class="contacts-type"> E:</span>
+              <a class="contacts-link" href="mailto:vacalatyvika02@gmail.com"
+                >vacalatyvika02@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- Tech skills -->
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> HTML5 </span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> CSS3</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> GIT</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Node.js </span>
+            </li>
+          </ul>
+        </div>
+        <!-- Soft skills -->
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> Scrum </span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> Agile</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> GTD</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> Teamwork</span>
+            </li>
+          </ul>
+        </div>
+        <div class="languages">
+          <h3 class="sidebar-title"> Languages </h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> Ukrainian (Navive language) </span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text"> English (Intermediate)</span>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>
